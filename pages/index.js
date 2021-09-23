@@ -65,18 +65,6 @@ export default function Home({ data }) {
             <InputGroup pb="1rem">
               <Input placeholder="Busca una imagen" variant="ghost" value={query}
                 onChange={e => handleChange(e)} />
-              <InputRightElement
-                children={
-                  <IconButton
-                    aria-label="Search"
-                    icon={<SearchIcon />}
-                    bg="#FFFF01"
-                    color="black"
-                    onClick={handleSubmit}
-
-                  />
-                }
-              />
             </InputGroup>
           </form>
         </Container>
