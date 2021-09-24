@@ -6,9 +6,9 @@ despues abrir en el navegador esta URL http://localhost:3000/
 
 ## Preview
 
-![gif](https://i.giphy.com/media/Lc7cYHtoUoc80zQGHb/source.gif)
+![gif](https://i.giphy.com/media/Lc7cYHtoUoc80zQGHb/giphy.webp)
 
-![gif](https://i.giphy.com/media/ZoWDQFJnZJMmIqzeqB/source.gif)
+![gif](https://i.giphy.com/media/ZoWDQFJnZJMmIqzeqB/giphy.webp)
 
 ## Deploy Coming SOON!!!
 
