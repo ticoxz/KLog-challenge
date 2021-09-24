@@ -13,6 +13,7 @@ import {
   IconButton,
   InputRightElement,
   InputGroup,
+  Button,
 } from "@chakra-ui/react";
 import { SearchIcon } from "@chakra-ui/icons";
 export default function Home({ data }) {
@@ -65,6 +66,7 @@ export default function Home({ data }) {
             <InputGroup pb="1rem">
               <Input placeholder="Busca una imagen" variant="ghost" value={query}
                 onChange={e => handleChange(e)} />
+              <Button textColor="black" bgColor="#FFFF01" ml="1.5" onClick={handleSubmit}>Buscar</Button>
             </InputGroup>
           </form>
         </Container>
