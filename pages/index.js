@@ -94,7 +94,7 @@ export default function Home({ data }) {
 export const getStaticProps = async () => {
 
   const response = await fetch(
-    `https://api.unsplash.com/photos?client_id=${process.env.NEXT_PUBLIC_CLIENT_ID}&per_page=10&page=1`
+    `https://api.unsplash.com/photos?client_id=3H516dDIPOgaJaMNiimPnCh9dh1e4GAYawjiD1sOByo&per_page=10&page=1`
   );
   const data = await response.json();
 
